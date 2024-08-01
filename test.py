@@ -12,4 +12,3 @@ def test_count_vowels_mixed_case():
 
 def test_count_vowels_empty_string():
     assert count_vowels("") == 0  # Пустая строка
-
