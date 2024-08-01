@@ -1,4 +1,4 @@
-def remainder(a, b):
-    if b == 0:
-        raise ValueError("Деление на ноль!")
-    return a % b
+def count_vowels(s):
+    vowels = 'аеёиоуыэюяАЕЁИОУЫЭЮЯ'
+    count = sum(1 for char in s if char in vowels)
+    return count
